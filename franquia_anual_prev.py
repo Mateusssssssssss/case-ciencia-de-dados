@@ -7,7 +7,7 @@ from yellowbrick.regressor import ResidualsPlot
 
 #Carregar o dataset
 dados = pd.read_csv('slr12.csv',sep=';')
-print(dados.head())
+print(dados.head())\
 #Descrição dos dados
 print(dados.describe())
 #Verificar valores nulos
